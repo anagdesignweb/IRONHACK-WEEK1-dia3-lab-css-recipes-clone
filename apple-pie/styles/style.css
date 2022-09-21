@@ -1,0 +1,75 @@
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+
+:root{
+      --grey: #BEBEBE;
+}
+
+*, html{
+      padding: 0;
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 18px;
+}
+
+.main{
+      margin: 12%;
+}
+.header{
+      height: 500px;
+      background-image: url(../images/apple-pie.jpg);
+      background-size: cover;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+}
+.header > h1{
+      color: white;
+      font-weight: 400;
+      font-size: 4rem;
+      margin: 0 auto;
+}
+.section{
+      margin: 50px 0;
+      border-bottom: 1px solid var(--grey);
+      padding-bottom: 20px;
+}
+.uno{
+      text-align: justify;
+      
+}
+.uno > div, .div-tiempos{
+      display: flex;
+      justify-content: center;
+      padding: 60px 0 25px 0;
+}
+.uno > div > p{
+      padding:0 20px;
+}
+
+ul{
+      padding: 30px;
+      list-style-type: none;
+}
+.icons{
+      color: var(--grey);
+      font-size: 1.4rem;
+}
+.div-tiempos > div{
+      padding: 20px;      
+      position: relative;
+}
+.div-tiempos > div > p{
+      padding: 5px;
+
+}
+.div-tiempos > .reloj > i{
+      font-size: 2rem;
+      position: absolute;
+      left: 0;
+      top: 34px;
+}
+.tres > div{
+      padding-top: 30px;
+}
